@@ -1,0 +1,7 @@
+dataset,column_name,missing_count,missing_percentage
+recommended_works,work_description,52,0.06
+recommended_works,category,5,0.01
+completed_works,work_description,85,0.19
+completed_works,category,5,0.01
+completed_works,average_rating,43895,99.99
+mp_summary,average_rating,770,99.48

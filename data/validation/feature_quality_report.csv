@@ -1,0 +1,31 @@
+feature_name,dtype,missing_count,missing_percentage,unique_values,min,max,mean,median,usable_for_ml,notes
+project_id,str,0,0.0,86976,,,,,False,Categorical or highly sparse; use with caution.
+mp_name,str,0,0.0,731,,,,,False,Categorical or highly sparse; use with caution.
+state,str,0,0.0,36,,,,,False,Categorical or highly sparse; use with caution.
+constituency,str,0,0.0,537,,,,,False,Categorical or highly sparse; use with caution.
+category,str,5,0.01,4,,,,,False,Categorical or highly sparse; use with caution.
+recommended_amount,float64,0,0.0,6327,1.0,99965000.0,630335.1905035871,400000.0,True,Numeric feature usable for ML.
+final_amount,float64,86848,99.85,17,243000.0,1486150.0,404091.6484375,283000.0,False,Categorical or highly sparse; use with caution.
+total_expenditure,float64,0,0.0,60,0.0,77584071.0,26238.793253311258,0.0,True,Numeric feature usable for ML.
+cost_variation_pct,float64,86848,99.85,60,-90.28,1350.0,31.23762956572667,-13.302281368821292,False,Categorical or highly sparse; use with caution.
+expenditure_ratio,float64,0,0.0,98,0.0,114.88888888888889,0.09106616565845997,0.0,True,Numeric feature usable for ML.
+payment_count,int64,0,0.0,24,0,85,0.09581953642384106,0.0,True,Numeric feature usable for ML.
+average_payment,float64,86680,99.66,59,50000.0,2502711.9677419355,465854.0315988253,200000.0,False,Categorical or highly sparse; use with caution.
+maximum_payment,float64,86680,99.66,59,99706.0,77584071.0,7709950.277027027,4786574.0,False,Categorical or highly sparse; use with caution.
+minimum_payment,float64,86680,99.66,59,99706.0,77584071.0,7709950.277027027,4786574.0,False,Categorical or highly sparse; use with caution.
+payment_frequency,float64,86680,99.66,83,0.0013966480446927,5.75,0.34092455762801616,0.0796915167095115,False,Categorical or highly sparse; use with caution.
+pending_payment_count,int64,0,0.0,5,0,7,0.0018740802060338484,0.0,True,Numeric feature usable for ML.
+successful_payment_count,int64,0,0.0,1,0,0,0.0,0.0,True,Numeric feature usable for ML.
+vendor_project_count,float64,86680,99.66,9,1.0,12.0,2.2972972972972974,2.0,False,Categorical or highly sparse; use with caution.
+vendor_total_expenditure,float64,86680,99.66,58,34915.0,131638270.0,3904986.516891892,1479688.0,False,Categorical or highly sparse; use with caution.
+vendor_average_project_cost,float64,86680,99.66,56,32232.8,2744326.0,439724.27981634485,200000.0,False,Categorical or highly sparse; use with caution.
+recommendation_to_completion_days,float64,86848,99.85,71,-842.0,218.0,-524.1484375,-535.0,False,Categorical or highly sparse; use with caution.
+days_since_recommendation,float64,0,0.0,923,0.0,1175.0,282.8364376379691,252.0,True,Numeric feature usable for ML.
+is_completed,int64,0,0.0,2,0,1,0.0014716703458425313,0.0,True,Numeric feature usable for ML.
+has_images,bool,0,0.0,2,False,True,0.002299484915378955,0.0,True,Numeric feature usable for ML.
+average_rating,float64,86976,100.0,0,,,,,False,Categorical or highly sparse; use with caution.
+peer_median_cost,float64,0,0.0,49,25000.0,5000000.0,417185.3699411332,300000.0,True,Numeric feature usable for ML.
+peer_mean_cost,float64,0,0.0,97,25000.0,5000000.0,630335.1905035872,529558.601292451,True,Numeric feature usable for ML.
+peer_std_cost,float64,16,0.02,83,0.0,10340676.330498204,1063345.618657324,988552.0167387102,True,Numeric feature usable for ML.
+cost_deviation_from_peer,float64,0,0.0,8488,-99.99985714285714,22385.42109307897,64.67479405708718,0.0,True,Numeric feature usable for ML.
+description_similarity_score,float64,66,0.08,47808,0.0,1.0,0.8588806246957688,0.90278794832784,True,Numeric feature usable for ML.

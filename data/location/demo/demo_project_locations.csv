@@ -1,0 +1,97 @@
+project_id,state,constituency,location_text,latitude,longitude,location_source,location_method,confidence,is_verified,demo_only
+175556|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 1 for ANDAMAN AND NICOBAR ISLANDS,28.6139,77.209,synthetic_demo,synthetic_demo,0.0,False,True
+175559|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 2 for ANDAMAN AND NICOBAR ISLANDS,28.6163,77.2121,synthetic_demo,synthetic_demo,0.0,False,True
+175561|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 3 for ANDAMAN AND NICOBAR ISLANDS,28.6091,77.2152,synthetic_demo,synthetic_demo,0.0,False,True
+183102|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 4 for ANDAMAN AND NICOBAR ISLANDS,28.6211,77.1997,synthetic_demo,synthetic_demo,0.0,False,True
+187484|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 5 for ANDAMAN AND NICOBAR ISLANDS,28.6043,77.21,synthetic_demo,synthetic_demo,0.0,False,True
+188526|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 6 for ANDAMAN AND NICOBAR ISLANDS,28.6259,77.2131,synthetic_demo,synthetic_demo,0.0,False,True
+188528|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 7 for ANDAMAN AND NICOBAR ISLANDS,28.6131,77.2018,synthetic_demo,synthetic_demo,0.0,False,True
+212474|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 8 for ANDAMAN AND NICOBAR ISLANDS,28.6171,77.2193,synthetic_demo,synthetic_demo,0.0,False,True
+224538|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 9 for ANDAMAN AND NICOBAR ISLANDS,28.6083,77.211,synthetic_demo,synthetic_demo,0.0,False,True
+224539|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 10 for ANDAMAN AND NICOBAR ISLANDS,28.6219,77.2039,synthetic_demo,synthetic_demo,0.0,False,True
+228040|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 11 for ANDAMAN AND NICOBAR ISLANDS,28.6035,77.2172,synthetic_demo,synthetic_demo,0.0,False,True
+242171|BISHNU PADA RAY|ANDAMAN AND NICOBAR ISLANDS|Andaman And Nicobar Islands,Andaman And Nicobar Islands,ANDAMAN AND NICOBAR ISLANDS,Demo location 12 for ANDAMAN AND NICOBAR ISLANDS,28.6267,77.2203,synthetic_demo,synthetic_demo,0.0,False,True
+1155|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 1 for AMALAPURAM,19.076,72.8777,synthetic_demo,synthetic_demo,0.0,False,True
+1717|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 2 for AMALAPURAM,19.0784,72.8808,synthetic_demo,synthetic_demo,0.0,False,True
+163100|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 3 for AMALAPURAM,19.0712,72.8839,synthetic_demo,synthetic_demo,0.0,False,True
+163760|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 4 for AMALAPURAM,19.0832,72.8684,synthetic_demo,synthetic_demo,0.0,False,True
+164721|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 5 for AMALAPURAM,19.0664,72.8787,synthetic_demo,synthetic_demo,0.0,False,True
+164722|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 6 for AMALAPURAM,19.088,72.8818,synthetic_demo,synthetic_demo,0.0,False,True
+216440|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 7 for AMALAPURAM,19.0752,72.8705,synthetic_demo,synthetic_demo,0.0,False,True
+231955|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 8 for AMALAPURAM,19.0792,72.888,synthetic_demo,synthetic_demo,0.0,False,True
+231961|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 9 for AMALAPURAM,19.0704,72.8797,synthetic_demo,synthetic_demo,0.0,False,True
+231963|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 10 for AMALAPURAM,19.084,72.8726,synthetic_demo,synthetic_demo,0.0,False,True
+231964|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 11 for AMALAPURAM,19.0656,72.8859,synthetic_demo,synthetic_demo,0.0,False,True
+231966|GM Harish Balayogi|AMALAPURAM|Andhra Pradesh,Andhra Pradesh,AMALAPURAM,Demo location 12 for AMALAPURAM,19.0888,72.889,synthetic_demo,synthetic_demo,0.0,False,True
+1294|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 1 for ANAKAPALLE,13.0827,80.2707,synthetic_demo,synthetic_demo,0.0,False,True
+1403|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 2 for ANAKAPALLE,13.0851,80.2738,synthetic_demo,synthetic_demo,0.0,False,True
+219764|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 3 for ANAKAPALLE,13.0779,80.2769,synthetic_demo,synthetic_demo,0.0,False,True
+220734|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 4 for ANAKAPALLE,13.0899,80.2614,synthetic_demo,synthetic_demo,0.0,False,True
+220737|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 5 for ANAKAPALLE,13.0731,80.2717,synthetic_demo,synthetic_demo,0.0,False,True
+220739|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 6 for ANAKAPALLE,13.0947,80.2748,synthetic_demo,synthetic_demo,0.0,False,True
+234427|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 7 for ANAKAPALLE,13.0819,80.2635,synthetic_demo,synthetic_demo,0.0,False,True
+234435|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 8 for ANAKAPALLE,13.0859,80.281,synthetic_demo,synthetic_demo,0.0,False,True
+248539|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 9 for ANAKAPALLE,13.0771,80.2727,synthetic_demo,synthetic_demo,0.0,False,True
+256718|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 10 for ANAKAPALLE,13.0907,80.2656,synthetic_demo,synthetic_demo,0.0,False,True
+256730|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 11 for ANAKAPALLE,13.0723,80.2789,synthetic_demo,synthetic_demo,0.0,False,True
+256731|C.M.RAMESH|ANAKAPALLE|Andhra Pradesh,Andhra Pradesh,ANAKAPALLE,Demo location 12 for ANAKAPALLE,13.0955,80.282,synthetic_demo,synthetic_demo,0.0,False,True
+1458|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 1 for ANANTAPUR,12.9716,77.5946,synthetic_demo,synthetic_demo,0.0,False,True
+1488|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 2 for ANANTAPUR,12.974,77.5977,synthetic_demo,synthetic_demo,0.0,False,True
+157509|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 3 for ANANTAPUR,12.9668,77.6008,synthetic_demo,synthetic_demo,0.0,False,True
+157510|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 4 for ANANTAPUR,12.9788,77.5853,synthetic_demo,synthetic_demo,0.0,False,True
+157513|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 5 for ANANTAPUR,12.962,77.5956,synthetic_demo,synthetic_demo,0.0,False,True
+157527|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 6 for ANANTAPUR,12.9836,77.5987,synthetic_demo,synthetic_demo,0.0,False,True
+163284|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 7 for ANANTAPUR,12.9708,77.5874,synthetic_demo,synthetic_demo,0.0,False,True
+163287|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 8 for ANANTAPUR,12.9748,77.6049,synthetic_demo,synthetic_demo,0.0,False,True
+163291|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 9 for ANANTAPUR,12.966,77.5966,synthetic_demo,synthetic_demo,0.0,False,True
+163292|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 10 for ANANTAPUR,12.9796,77.5895,synthetic_demo,synthetic_demo,0.0,False,True
+172266|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 11 for ANANTAPUR,12.9612,77.6028,synthetic_demo,synthetic_demo,0.0,False,True
+172278|AMBICA G LAKSHMINARAYANA VALMIKI|ANANTAPUR|Andhra Pradesh,Andhra Pradesh,ANANTAPUR,Demo location 12 for ANANTAPUR,12.9844,77.6059,synthetic_demo,synthetic_demo,0.0,False,True
+1184|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 1 for ARAKU,23.2599,77.4126,synthetic_demo,synthetic_demo,0.0,False,True
+1199|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 2 for ARAKU,23.2623,77.4157,synthetic_demo,synthetic_demo,0.0,False,True
+1489|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 3 for ARAKU,23.2551,77.4188,synthetic_demo,synthetic_demo,0.0,False,True
+1490|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 4 for ARAKU,23.2671,77.4033,synthetic_demo,synthetic_demo,0.0,False,True
+1952|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 5 for ARAKU,23.2503,77.4136,synthetic_demo,synthetic_demo,0.0,False,True
+1954|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 6 for ARAKU,23.2719,77.4167,synthetic_demo,synthetic_demo,0.0,False,True
+1977|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 7 for ARAKU,23.2591,77.4054,synthetic_demo,synthetic_demo,0.0,False,True
+2090|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 8 for ARAKU,23.2631,77.4229,synthetic_demo,synthetic_demo,0.0,False,True
+2091|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 9 for ARAKU,23.2543,77.4146,synthetic_demo,synthetic_demo,0.0,False,True
+2157|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 10 for ARAKU,23.2679,77.4075,synthetic_demo,synthetic_demo,0.0,False,True
+151986|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 11 for ARAKU,23.2495,77.4208,synthetic_demo,synthetic_demo,0.0,False,True
+152143|Gumma Thanuja Rani|ARAKU|Andhra Pradesh,Andhra Pradesh,ARAKU,Demo location 12 for ARAKU,23.2727,77.4239,synthetic_demo,synthetic_demo,0.0,False,True
+2142|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 1 for BAPATLA,22.5726,88.3639,synthetic_demo,synthetic_demo,0.0,False,True
+186736|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 2 for BAPATLA,22.575,88.367,synthetic_demo,synthetic_demo,0.0,False,True
+199561|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 3 for BAPATLA,22.5678,88.3701,synthetic_demo,synthetic_demo,0.0,False,True
+201543|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 4 for BAPATLA,22.5798,88.3546,synthetic_demo,synthetic_demo,0.0,False,True
+201546|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 5 for BAPATLA,22.563,88.3649,synthetic_demo,synthetic_demo,0.0,False,True
+203509|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 6 for BAPATLA,22.5846,88.368,synthetic_demo,synthetic_demo,0.0,False,True
+203514|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 7 for BAPATLA,22.5718,88.3567,synthetic_demo,synthetic_demo,0.0,False,True
+203802|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 8 for BAPATLA,22.5758,88.3742,synthetic_demo,synthetic_demo,0.0,False,True
+206887|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 9 for BAPATLA,22.567,88.3659,synthetic_demo,synthetic_demo,0.0,False,True
+206909|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 10 for BAPATLA,22.5806,88.3588,synthetic_demo,synthetic_demo,0.0,False,True
+206912|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 11 for BAPATLA,22.5622,88.3721,synthetic_demo,synthetic_demo,0.0,False,True
+206913|Krishna Prasad Tenneti|BAPATLA|Andhra Pradesh,Andhra Pradesh,BAPATLA,Demo location 12 for BAPATLA,22.5854,88.3752,synthetic_demo,synthetic_demo,0.0,False,True
+135653|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 1 for CHITTOOR,26.8467,80.9462,synthetic_demo,synthetic_demo,0.0,False,True
+135658|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 2 for CHITTOOR,26.8491,80.9493,synthetic_demo,synthetic_demo,0.0,False,True
+141506|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 3 for CHITTOOR,26.8419,80.9524,synthetic_demo,synthetic_demo,0.0,False,True
+141507|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 4 for CHITTOOR,26.8539,80.9369,synthetic_demo,synthetic_demo,0.0,False,True
+141551|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 5 for CHITTOOR,26.8371,80.9472,synthetic_demo,synthetic_demo,0.0,False,True
+142933|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 6 for CHITTOOR,26.8587,80.9503,synthetic_demo,synthetic_demo,0.0,False,True
+146760|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 7 for CHITTOOR,26.8459,80.939,synthetic_demo,synthetic_demo,0.0,False,True
+146761|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 8 for CHITTOOR,26.8499,80.9565,synthetic_demo,synthetic_demo,0.0,False,True
+146762|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 9 for CHITTOOR,26.8411,80.9482,synthetic_demo,synthetic_demo,0.0,False,True
+221109|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 10 for CHITTOOR,26.8547,80.9411,synthetic_demo,synthetic_demo,0.0,False,True
+226516|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 11 for CHITTOOR,26.8363,80.9544,synthetic_demo,synthetic_demo,0.0,False,True
+239473|DAGGUMALLA PRASADA RAO|CHITTOOR|Andhra Pradesh,Andhra Pradesh,CHITTOOR,Demo location 12 for CHITTOOR,26.8595,80.9575,synthetic_demo,synthetic_demo,0.0,False,True
+830|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 1 for ELURU,25.3176,82.9739,synthetic_demo,synthetic_demo,0.0,False,True
+1785|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 2 for ELURU,25.32,82.977,synthetic_demo,synthetic_demo,0.0,False,True
+1799|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 3 for ELURU,25.3128,82.9801,synthetic_demo,synthetic_demo,0.0,False,True
+137046|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 4 for ELURU,25.3248,82.9646,synthetic_demo,synthetic_demo,0.0,False,True
+137081|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 5 for ELURU,25.308,82.9749,synthetic_demo,synthetic_demo,0.0,False,True
+137088|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 6 for ELURU,25.3296,82.978,synthetic_demo,synthetic_demo,0.0,False,True
+149399|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 7 for ELURU,25.3168,82.9667,synthetic_demo,synthetic_demo,0.0,False,True
+149400|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 8 for ELURU,25.3208,82.9842,synthetic_demo,synthetic_demo,0.0,False,True
+168892|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 9 for ELURU,25.312,82.9759,synthetic_demo,synthetic_demo,0.0,False,True
+169477|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 10 for ELURU,25.3256,82.9688,synthetic_demo,synthetic_demo,0.0,False,True
+175374|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 11 for ELURU,25.3072,82.9821,synthetic_demo,synthetic_demo,0.0,False,True
+175376|Putta Mahesh Kumar|ELURU|Andhra Pradesh,Andhra Pradesh,ELURU,Demo location 12 for ELURU,25.3304,82.9852,synthetic_demo,synthetic_demo,0.0,False,True

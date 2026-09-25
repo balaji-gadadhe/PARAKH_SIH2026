@@ -1,0 +1,540 @@
+@import "tailwindcss";
+
+/* Smooth in-page anchor scrolling (homepage hero CTAs → portals/overview). */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── PARAKH theme tokens — dual-theme (D-023 base + D-024 scope) ────────
+   ROOT (default, D-023): parchment canvas #F7F6F1, white panels, sovereign
+   green primary #0C4A34, saffron-amber accent #D97706, Plus Jakarta Sans.
+   This is the look for login, dashboard, investigation — every page until
+   it is explicitly re-themed with user sign-off (D-025).
+
+   SCOPED (.theme-saffron, D-024): "Sovereign Saffron Civic" from
+   stitch-home/ — saffron primary #964500, green secondary #236B48, warm
+   peach-sand canvas #FFF8F5, Montserrat. Currently applied to the public
+   homepage only. Pages opt in by adding the class to their root element.
+
+   Risk tiers stay semantic in both themes (risk colors are data, not brand).
+───────────────────────────────────────────────────────────────────────── */
+:root {
+  /* Base surfaces — warm parchment, white panels (D-023) */
+  --background: #f7f6f1;         /* page canvas */
+  --surface: #ffffff;            /* card panels */
+  --surface-raised: #ffffff;     /* raised cards (alias — same in D-023) */
+  --surface-2: #f1efea;          /* subtle insets, table header fills */
+  --border: #e5e2d8;             /* warm hairline borders */
+  --border-soft: #e5e2d8;        /* soft divider (alias of --border) */
+  --border-strong: #d5d1c4;
+
+  /* Text */
+  --foreground: #1a1915;         /* ink primary */
+  --muted: #6e6b64;              /* secondary text */
+  --faint: #98958e;              /* dim labels */
+
+  /* Brand — sovereign forest green primary, saffron/amber accent */
+  --primary: #0c4a34;
+  --primary-container: #062b1e;  /* darker hover tone */
+  --primary-dark: #062b1e;
+  --primary-tint: #ebf2ee;       /* pale green wash for active states */
+  --primary-tint-dim: #d5e5dc;
+  --accent: #d97706;             /* saffron/amber — actions, attention */
+  --accent-dark: #b45309;        /* ochre text on light */
+  --accent-soft: #fef3c7;        /* pale amber fill */
+  --accent-wash: #faf0e6;        /* cream-peach fill */
+
+  /* Per-theme details */
+  --section-label-ink: #b45309;  /* .section-label color (D-023: ochre) */
+  --radius-btn: 10px;            /* buttons: soft square (D-023) */
+  --font-body: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-mono-stack: var(--font-jetbrains), ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  /* Risk tiers (functional, from DESIGN.md "Risk Indicator Suite") */
+  --tier-low: #2d7d54;
+  --tier-low-bg: #ecfdf5;
+  --tier-medium: #d78a22;
+  --tier-medium-bg: #fffbeb;
+  --tier-high: #c24c22;
+  --tier-high-bg: #fff7ed;
+  --tier-critical: #a92727;
+  --tier-critical-bg: #fef2f2;
+
+  /* Elevation — warm, diffused, parchment-rooted */
+  --shadow-card: 0 4px 20px -2px rgba(180, 150, 120, 0.12),
+    0 2px 6px -1px rgba(12, 74, 52, 0.04);
+  --shadow-raised: 0 12px 32px -4px rgba(180, 140, 110, 0.22),
+    0 4px 12px -2px rgba(12, 74, 52, 0.06);
+  --shadow-modal: 0 20px 48px -8px rgba(31, 41, 55, 0.18);
+
+  --radius-card: 16px;
+}
+
+/* ── Sovereign Saffron Civic scope (D-024) — opt-in per page ─────────── */
+.theme-saffron {
+  --background: #fff8f5;
+  --surface: #faf2ee;            /* tinted warm-sand panels */
+  --surface-raised: #ffffff;
+  --surface-2: #f4ece8;
+  --border: #e8d5c4;
+  --border-soft: #f3e3d3;
+  --border-strong: #dcc1b3;
+
+  --foreground: #1e1b19;
+  --muted: #554339;
+  --faint: #897367;
+
+  --primary: #964500;            /* saffron drives primary actions */
+  --primary-container: #b75b16;
+  --primary-dark: #7a3400;
+  --primary-tint: #ffdbc9;
+  --primary-tint-dim: #ffb68b;
+  --accent: #236b48;             /* civic green secondary */
+  --accent-dark: #b45309;
+  --accent-soft: #aaf2c6;
+  --accent-wash: #fff0e2;
+
+  --section-label-ink: #964500;
+  --radius-btn: 9999px;          /* pill buttons per the Stitch design */
+  --font-body: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: 0 4px 16px -2px rgba(200, 104, 36, 0.08),
+    0 2px 6px -1px rgba(120, 72, 20, 0.05);
+  --shadow-raised: 0 10px 30px -4px rgba(68, 64, 60, 0.1),
+    0 4px 12px -2px rgba(200, 104, 36, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-2: var(--surface-2);
+  --color-brd: var(--border);
+  --color-brd-soft: var(--border-soft);
+  --color-brd-strong: var(--border-strong);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-primary: var(--primary);
+  --color-primary-container: var(--primary-container);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-tint: var(--primary-tint);
+  --color-primary-tint-dim: var(--primary-tint-dim);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-wash: var(--accent-wash);
+  --color-low: var(--tier-low);
+  --color-low-bg: var(--tier-low-bg);
+  --color-medium: var(--tier-medium);
+  --color-medium-bg: var(--tier-medium-bg);
+  --color-high: var(--tier-high);
+  --color-high-bg: var(--tier-high-bg);
+  --color-critical: var(--tier-critical);
+  --color-critical-bg: var(--tier-critical-bg);
+  --radius-card: var(--radius-card);
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono-stack);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  font-feature-settings: "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Shared primitives (theme-aware via tokens) ───────────────────────── */
+
+/* Default card panel — white in D-023 scope, warm sand in saffron scope */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+/* Raised card — crisper elevation (spotlight, portals) */
+.panel-raised {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-raised);
+}
+
+/* Uppercase letter-spaced section label (ochre in D-023, saffron in scope) */
+.section-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--section-label-ink);
+}
+
+/* Primary action button (green in D-023, saffron pill in scope) */
+.btn-primary {
+  background: var(--primary);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: var(--radius-btn);
+  border: 1px solid transparent;
+  transition: background 0.15s ease;
+}
+.btn-primary:hover {
+  background: var(--primary-container);
+}
+.btn-primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* Administrative portal button (peach pill w/ ochre text) */
+.btn-portal {
+  background: var(--accent-wash);
+  color: var(--accent-dark);
+  font-weight: 700;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-btn);
+  transition: background 0.15s ease;
+}
+.btn-portal:hover {
+  background: var(--accent-soft);
+}
+
+/* Ghost / secondary button */
+.btn-ghost {
+  background: transparent;
+  color: var(--primary);
+  font-weight: 600;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-btn);
+  transition: background 0.15s ease;
+}
+.btn-ghost:hover {
+  background: var(--accent-wash);
+}
+
+/* Historical-batch disclaimer chip */
+.disclaimer-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: var(--surface-raised);
+  color: var(--muted);
+}
+
+/* Hero backdrop — D-023 green gradient + transparent parliament cutout
+   (login etc.). The cutout anchors to the bottom like a skyline; the
+   gradient sits on top and tints it, matching the homepage treatment. */
+.hero-parliament {
+  background-image: linear-gradient(
+      100deg,
+      rgba(6, 43, 30, 0.92) 0%,
+      rgba(12, 74, 52, 0.82) 55%,
+      rgba(6, 43, 30, 0.6) 100%
+    ),
+    url("/theme/parliament-cutout.png");
+  background-size: cover, contain;
+  background-position: center, center bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+/* Hero backdrop — Sovereign Saffron gradient (saffron-scope pages;
+   watermark layered by the page itself) */
+.hero-saffron {
+  background: linear-gradient(
+    100deg,
+    var(--primary-container) 0%,
+    var(--primary) 55%,
+    var(--primary-dark) 100%
+  );
+}
+
+/* Muted "Not available" value styling */
+.na-value {
+  color: var(--faint);
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* India map states — gentle float on hover (D-031 Step-2 polish):
+   per-path lift + soft drop shadow, transform-box so each state scales
+   around its own bounding box rather than the whole SVG. */
+.map-state-path {
+  transition:
+    transform 0.15s ease,
+    fill-opacity 0.15s ease,
+    filter 0.15s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.map-state-path:hover {
+  transform: translateY(-1.5px) scale(1.012);
+  filter: drop-shadow(0 3px 4px rgba(26, 25, 21, 0.35));
+}
+
+/* ─── Printable Investigation Report (D-031 Step 1) ──────────────────
+   The sheet is part of the dossier DOM inside .print-area. Screen: hidden.
+   Print: everything except .print-area is hidden; the sheet reflows as a
+   clean A4 document. No external deps — offline-safe.
+────────────────────────────────────────────────────────────────────── */
+.print-area {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 12mm;
+  }
+
+  /* Hide the whole app except the report sheet.
+     .print-area is a SIBLING of main (direct child of the page root div),
+     so hiding main keeps the sheet visible. .fixed = modal overlays. */
+  body > div > main,
+  body > div > footer,
+  header,
+  nav,
+  .fixed,
+  .report-actions,
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+  }
+
+  .print-area {
+    display: block;
+  }
+
+  .report-sheet {
+    color: #111;
+    font-family: var(--font-body, system-ui, sans-serif);
+    font-size: 10.5pt;
+    line-height: 1.45;
+  }
+
+  .report-sheet a {
+    color: #111;
+    text-decoration: none;
+  }
+
+  /* Header */
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 2.5px solid #0c4a34;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+  }
+
+  .report-kicker {
+    font-size: 7.5pt;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6e6b64;
+    margin: 0 0 4px;
+  }
+
+  .report-header h1 {
+    font-size: 17pt;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .report-sub {
+    font-size: 9.5pt;
+    color: #444;
+    margin: 4px 0 0;
+    max-width: 130mm;
+  }
+
+  .report-scorebox {
+    border: 1.5px solid #d5d1c4;
+    border-radius: 8px;
+    padding: 8px 14px;
+    text-align: center;
+    min-width: 34mm;
+  }
+
+  .report-score {
+    display: block;
+    font-size: 20pt;
+    font-weight: 800;
+    color: #a92727;
+    line-height: 1.1;
+  }
+
+  .report-score-tier {
+    font-size: 7.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6e6b64;
+  }
+
+  /* Key-facts strip — 5 headline numbers before the detail sections */
+  .report-keyfacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+
+  .report-keyfacts > div {
+    flex: 1 1 30mm;
+    border: 1px solid #d5d1c4;
+    border-radius: 6px;
+    padding: 4px 8px;
+  }
+
+  .report-keyfacts span {
+    display: block;
+    font-size: 6.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6e6b64;
+  }
+
+  .report-keyfacts strong {
+    display: block;
+    font-size: 9.5pt;
+    margin-top: 1px;
+    overflow-wrap: anywhere;
+  }
+
+  /* Raw record starts on its own page — an appendix, not a wall of numbers */
+  .report-pagebreak {
+    break-before: page;
+  }
+
+  /* Sections */
+  .report-section {
+    margin-bottom: 13px;
+    break-inside: avoid;
+  }
+
+  .report-section h2 {
+    font-size: 10pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid #d5d1c4;
+    padding-bottom: 3px;
+    margin: 0 0 6px;
+  }
+
+  .report-n {
+    display: inline-block;
+    background: #0c4a34;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 8pt;
+    padding: 0 5px;
+    margin-right: 6px;
+  }
+
+  .report-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 2.5px 0;
+    border-bottom: 1px dotted #e5e2d8;
+  }
+
+  .report-row dt {
+    color: #555;
+    flex-shrink: 0;
+  }
+
+  .report-row dd {
+    margin: 0;
+    font-weight: 600;
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
+
+  .report-warn {
+    color: #a92727;
+  }
+
+  .report-para {
+    margin: 0 0 6px;
+  }
+
+  .report-list {
+    margin: 4px 0 6px;
+    padding-left: 18px;
+  }
+
+  .report-list li {
+    margin-bottom: 2px;
+  }
+
+  .report-note {
+    font-size: 8pt;
+    color: #6e6b64;
+    margin: 4px 0 0;
+  }
+
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+
+  .report-table th {
+    text-align: left;
+    border-bottom: 1.5px solid #d5d1c4;
+    padding: 3px 6px;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .report-table td {
+    border-bottom: 1px dotted #e5e2d8;
+    padding: 3px 6px;
+  }
+
+  .report-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* Raw-record block — mono to signal verbatim dataset fields */
+  .report-raw {
+    font-family: ui-monospace, "JetBrains Mono", Consolas, monospace;
+    font-size: 8.5pt;
+  }
+
+  .report-raw dt {
+    color: #444;
+  }
+
+  .report-footer {
+    border-top: 1.5px solid #d5d1c4;
+    margin-top: 16px;
+    padding-top: 8px;
+    font-size: 8pt;
+    color: #6e6b64;
+  }
+
+  .report-footer p {
+    margin: 0;
+  }
+}

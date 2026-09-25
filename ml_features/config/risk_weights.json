@@ -1,0 +1,22 @@
+{
+  "weights": {
+    "cost_risk": 0.20,
+    "delay_risk": 0.20,
+    "payment_risk": 0.20,
+    "rule_risk": 0.20,
+    "similarity_risk": 0.10,
+    "iforest_risk": 0.10
+  },
+  "risk_thresholds": {
+    "LOW": [0.0, 0.30],
+    "MEDIUM": [0.30, 0.60],
+    "HIGH": [0.60, 0.80],
+    "CRITICAL": [0.80, 1.00]
+  },
+  "severity_weights": {
+    "CRITICAL": 75.0,
+    "HIGH": 50.0,
+    "MEDIUM": 25.0,
+    "LOW": 10.0
+  }
+}

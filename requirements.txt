@@ -1,0 +1,29 @@
+# PARAKH — complete Python quickstart (data pipeline + backend + API tests).
+# Tested on Python 3.13.7 — versions below are verified minimums (Session 10).
+# Engine suites: also `pip install -r ml_features/requirements.txt`.
+# Realtime replay: also `pip install -r realtime/requirements.txt`.
+
+# ── Data pipeline (scripts/01-04, run_pipeline.py) ──────────────────────
+pandas>=3.0
+numpy>=2.0
+PyYAML>=6.0
+openpyxl>=3.1.0
+
+# ── Detection engines ────────────────────────────────────────────────────
+# IMPORTANT: the .joblib model artifacts are retrained on scikit-learn 1.9.0
+# (D-014). Older sklearn versions fail to load them, and newer ones raise
+# InconsistentVersionWarning on unpickle — pin exactly.
+scikit-learn==1.9.0
+# The xgboost_delay_model.joblib artifact needs xgboost to unpickle — required
+# even for backend-only use (caught in fresh-clone testing, Session 11).
+xgboost>=3.0
+joblib>=1.3.0
+Pillow>=10.0.0
+
+# ── Backend (FastAPI read-only API + reports/citizen routers) ────────────
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.0
+python-multipart>=0.0.9
+httpx>=0.27.0
+pytest>=8.0.0
